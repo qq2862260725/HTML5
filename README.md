@@ -17,3 +17,5 @@ Learning HTML5
      .... some HTML here ....
   <![endif]-->
 ```
+## HTML表格
+- 表格的表头可以用th标签来定义，大多数浏览器会把表头显示为出题居中的文本

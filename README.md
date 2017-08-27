@@ -19,3 +19,19 @@ Learning HTML5
 ```
 ## HTML表格
 - 表格的表头可以用th标签来定义，大多数浏览器会把表头显示为出题居中的文本
+- colspan用来控制横向跨行单元格，rowspan用来控制跨列单元格
+- &nbsp;用来处理没有内容的单元格
+
+## HTML列表
+- 列表分为无序列表ul,有序列表ol，定义列表dl
+## HTML头部
+- 重定向用户
+```html
+    <meta http-equiv="Refresh" content="5;url=http://www.baidu.com" />
+```
+- 使用base标签可以统一a标签打开方式
+```html
+    <base target="_blank" />
+```
+- 一些搜索引擎会根据meta元素的name和conten属性来索引页面，name和content也可以描述页面内容
+- HTML中不可以使用大于和小于符号，那样会让浏览器误认为它是标签

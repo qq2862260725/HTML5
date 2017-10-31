@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Test</title>
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<body>
+    <form action="http://www.baidu.com" onsubmit="return toVaild()">
+        <input type="text" id="ff">
+        <input type="submit" id="submit" value ="提交"/>
+    </form>
+</body>
+<script>
+    function toVaild(){
+        var val = document.getElementById("ff").value;
+        alert(val);
+        if(val == "可以提交"){
+            alert("校验成功，之后进行提交");
+            return true;
+        }
+        else{
+            alert("校验失败，不进行提交");
+            return false;
+        }
+    }
+</script>
+</html>

@@ -1,0 +1,6 @@
+.wrap {
+	height: 600px;
+	width: 400px;
+	color: red;
+	border: 1px solid blue !important;
+}

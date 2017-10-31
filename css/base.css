@@ -5,8 +5,7 @@
 }
 html, body {
 	width: 100%;
-	margin: 0 auto;
-	min-width: 1349px;
+	margin: 0;
 	padding: 0
 }
 h1, h2, h3, h4, h5, h6, article, section, div, p {
@@ -15,8 +14,6 @@ h1, h2, h3, h4, h5, h6, article, section, div, p {
 }
 img {
 	border: 0;
-	width: 100%;
-	vertical-align: middle
 }
 ul {
 	list-style: none

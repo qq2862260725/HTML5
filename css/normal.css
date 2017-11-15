@@ -1,0 +1,58 @@
+html,body {
+	height: 100%;
+	width: 100%;
+}
+
+.page {
+	position: relative;
+	height: auto;
+	min-height: 100%;
+	width: 100%;
+}
+
+/*header*/
+header {
+	height: 80px;
+	width: 100%;
+	min-width: 1200px;
+	background-color: rgba(0, 0, 0, .5);
+}
+.nav {
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}
+
+/*content*/
+.content {
+	height: auto;
+	width: 100%;
+	min-width: 1200px;
+	padding-bottom: 130px;
+}
+.inner {
+	height: 200px;
+	width: 1200px;
+	margin: 0 auto;
+	color: #ffffff;
+	font-size: 20px;
+	text-align: center;
+	line-height: 200px;
+	border-top: 1px solid #ffffff;
+	background-color: rgba(22, 22, 22, 0.5);
+}
+
+/*footer*/
+footer {
+	position: absolute;
+	height: 100px;
+	width: 100%;
+	min-width: 1200px;
+	bottom: 0;
+	background-color: #181818
+}
+.foot_inner {
+	height: 100%;
+	width: 1200px;
+	margin: 0 auto;
+}

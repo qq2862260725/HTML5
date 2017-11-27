@@ -23,3 +23,17 @@ html,body {
 	width: 20%;
 	border: 1px solid blue;
 }
+.box3 {
+	height: auto;
+	width: 350px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border: 1px solid red;
+}
+.unique {
+	height: 80px;
+	width: 170px;
+	margin-bottom: 10px;
+	border: 1px solid blue;
+}

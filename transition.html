@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>transition</title>
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+</head>
+<style>
+	html,body {
+		height: 100%;
+		width: 100%;
+		background-color: #555555;
+	}
+	#one {
+		position: absolute;
+		height: 100px;
+		width: 10%;
+		margin-top: 100px;
+		left: 0;
+		transform: translateX(0%);
+		background-color: #ffffff;
+	}
+</style>
+<body>
+	<div id="one"></div>
+	<button id="two">Click</style>
+</body>
+<script>
+	var one = document.getElementById('one');
+	var two = document.getElementById('two');
+	var a = 0;
+
+	function loop(){
+		a += 50;
+		
+		if (a > 1000) {
+			return;
+		} 
+		console.log(a+'px');
+		one.style.left = a + 'px';
+		setTimeout(loop,1000/60);
+	};
+	two.onclick = function(){
+		loop();
+	}
+</script>
+</html>

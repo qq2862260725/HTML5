@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<style>
+	html,body {
+		height: 100%;
+		width: 100%;
+		background-color: #555555;
+	}
+	#one {
+		position: absolute;
+		height: 100px;
+		width: 10%;
+		margin-top: 100px;
+		left: 0;
+		transform: translateX(0%);
+		background-color: #ffffff;
+	}
+</style>
+<body>
+	<div id="one"></div>
+	<button id="two">Click</style>
+</body>
+<script>
+	var start = null;
+	var a = 0;
+	var one = document.getElementById('one');
+	var two = document.getElementById('two');
+
+	function step(timestamp) {
+		if (!start) start = timestamp;
+	  	var progress = timestamp - start;
+	  	one.style.left = Math.min(progress, 1000) + 'px';
+	  	if (progress < 1000) {
+	    	window.requestAnimationFrame(step);
+	  	}
+	}
+	two.onclick = function(){
+		window.requestAnimationFrame(step);
+	}
+</script>
+</html>

@@ -1,0 +1,17 @@
+#box {
+	position: relative;
+	height: auto;
+	width: 1200px;
+	margin: 100px auto;
+	border: 1px solid red;
+}
+.item {
+	position: absolute;
+	height: auto;
+	width: 220px;
+	border: 1px solid blue;
+}
+.item img {
+	height: auto;
+	width: 100%;
+}

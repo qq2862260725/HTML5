@@ -16,8 +16,6 @@ window.onload = function() {
 				items[i].style.top = 0;
 				items[i].style.left = (itemWidth + gap)*i + 'px';
 				arr.push(items[i].offsetHeight);
-				max = Math.max.apply(null, arr);
-				box.style.height = max + 'px';
 			} else {
 				var minHeight = arr[0];
 				var index = 0;
